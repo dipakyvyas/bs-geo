@@ -1,0 +1,23 @@
+{
+  "name" : "broadshout/bs-geo",
+    "description": "Generic GEO functionality",
+    "type": "module",
+    "license": "Copyright 2014 Broadshout Technologies SARL",
+
+    "require" : {
+     "broadshout/bs-base": "dev-master"
+  },
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-0": {
+            "BsGeo": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
